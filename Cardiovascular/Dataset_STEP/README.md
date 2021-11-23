@@ -5,6 +5,9 @@
 ## Description of Dataset
 This dataset was collected as part of a study on [investigating the sources of inaccuracy in wearable optical heart rate sensors](https://www.nature.com/articles/s41746-020-0226-6) across a variety of activities (sitting, deep breathing, walking, and typing). The original study examined covariates including skin tone, signal lag, and device type. The dataset includes the heart rate given by the ECG and corresponding heart rate given by each smartwatch used in the study. Activity, Skin Tone, and internal subject ID are also columns in this dataset. This dataset was recorded July-August 2019 and includes 53 participants. The data is completely de-identified and data has already been time-synced, removing the need for time in this dataset and providing further de-identification. This dataset is comprised of data to explore the accuracy of wearables across the full range of skin tones and across a range of activities assessing motion artifact and potential signal crossover.
 
+## Description of Dataset
+The dataset and documentation is available at the following link:([Link to physionet.org](https://physionet.org/content/bigideaslab-step-hr-smartwatch/1.0/))
+
 ## Citing this Dataset
 Please cite the DBDP and the original study this dataset was developed for:
 
