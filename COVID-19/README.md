@@ -1,29 +1,23 @@
-# EEG of healthy adolescents and adolescents with symptoms of schizophrenia
+# Real-time alerting system for COVID-19 and other stress events using wearable data
 
 ## Description of Dataset
-There are two EEG data archives for two groups of subjects. The subjects were adolescents who had been screened by psychiatrist and devided into two groups: healthy (n = 39) and with symptoms of schizophrenia (n = 45).
-
-Each file contains an EEG record for one subject. Each TXT file contains a column with EEG samples from 16 EEG channels (electrode positions). Each number in the column is an EEG amplitude (mkV) at distinct sample. First 7680 samples represent 1st channel, then 7680 - 2nd channel, ets. The sampling rate is 128 Hz, thus 7680 samples refer to 1 minute of EEG record.
+The pre-processing stage provides consistency between different sources (that is, Fitbit and Apple Watch) and handles missing data. The resolution of the retrieved distinct raw heart rates and steps data from Fitbit and Apple Watch differs. To calculate the RHR overnight for different devices, first we consider the heart rate records where steps are zero and then aggregate the RHR values by calculating the average RHR during nighttime (that is, 24:00 to 7:00).
 
 ## Citing this Dataset
 Please cite the original study:
-> Prof. N.N. Gorbachevskaya, Ph.D. S.V. Borisov. EEG of healthy adolescents and adolescents with symptoms of schizophrenia. (http://brain.bio.msu.ru/eeg_schizophrenia.htm).
+> Prof. N.N. Gorbachevskaya, Ph.D. S.V. Borisov. EEG of healthy adolescents and adolescents with symptoms of schizophrenia. (https://www.nature.com/articles/s41591-021-01593-2#data-availability).
 
 Please also cite the DBDP if you are using any module from Digital Biomarker Discovery Pipeline:
 
 > Bent, B., Wang, K., Grzesiak, E., Jiang, C., Qi, Y., Jiang, Y., Cho, P., Zingler, K., Ogbeide, F.I., Zhao, A., Runge, R., Sim, I., Dunn, J. (2020). The Digital Biomarker      Discovery Pipeline: An open source software platform for the development of digital biomarkers using mHealth and wearables data. Journal of Clinical and Translational Science, 1-28. doi:10.1017/cts.2020.511 ([Link to Open Access Article](https://www.cambridge.org/core/journals/journal-of-clinical-and-translational-science/article/digital-biomarker-discovery-pipeline-an-open-source-software-platform-for-the-development-of-digital-biomarkers-using-mhealth-and-wearables-data/A6696CEF138247077B470F4800090E63))
-## Previous Studies utilizing Dataset
 
-Previous studies utilizing this dataset include the [Fractal-based classification of electroencephalography (EEG) signals in healthy adolescents and adolescents with symptoms of schizophrenia.](https://pubmed.ncbi.nlm.nih.gov/30829625/).
-[Information-Based Classification of Electroencephalography (EEG) Signals for Healthy Adolescents and Adolescents with Symptoms of Schizophrenia](https://www.worldscientific.com/doi/abs/10.1142/S0219477520500339)
 ## Dataset
 
-The dataset and documentation is available at the following link: [Link to EEG of healthy adolescents and adolescents with symptoms of schizophrenia Dataset](http://brain.bio.msu.ru/eeg_schizophrenia.htm)
+De-identified raw heart rate and steps data used in this study can be downloaded at the following publicly available link: (https://storage.googleapis.com/gbsc-gcp-project-ipop_public/COVID-19-Phase2/COVID-19-Phase2-Wearables.zip)
+
 
 ## Useful DBDP Modules
 The DBDP provides code to help analyze this dataset:
 
 * [Pre-processing module](https://github.com/DigitalBiomarkerDiscoveryPipeline/Pre-process)
-* [Adolescence mentalhealth module](https://github.com/Big-Ideas-Lab/DBDP/tree/master/DigitalBiomarkers-MentalHealth_Adolescence)
-* [Human Activity Recognition](https://github.com/DigitalBiomarkerDiscoveryPipeline/Human-Activity-Recognition)
 * [wearablecompute](https://github.com/DigitalBiomarkerDiscoveryPipeline/wearablecompute)
