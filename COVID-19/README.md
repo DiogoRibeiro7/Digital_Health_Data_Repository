@@ -5,7 +5,8 @@ The pre-processing stage provides consistency between different sources (that is
 
 ## Citing this Dataset
 Please cite the original study:
-> Prof. N.N. Gorbachevskaya, Ph.D. S.V. Borisov. EEG of healthy adolescents and adolescents with symptoms of schizophrenia. (https://www.nature.com/articles/s41591-021-01593-2#data-availability).
+> Alavi, A., Bogu, G.K., Wang, M. et al. Real-time alerting system for COVID-19 and other stress events using wearable data. Nat Med 28, 175–184 (2022). https://doi.org/10.1038/s41591-021-01593-2
+(https://www.nature.com/articles/s41591-021-01593-2#Sec22).
 
 Please also cite the DBDP if you are using any module from Digital Biomarker Discovery Pipeline:
 
