@@ -8,6 +8,9 @@ The JCHR provides diabetes-related datasets and their corresponding protocol fro
 
 These datasets are also provided by T1D Exchange. [T1D Exchange](https://t1dexchange.org) is "a non-profit organization focused on accelerating therapies and improving care for type 1 diabetes individuals." The T1D Exchange Registry is a research study and data platform for individuals with type 1 diabetes.
 
+## Citing this Dataset
+Each dataset provided on the database has an associated study. Please refer to the appropriate paper for citation guidelines.
+
 ## Analyzing this Dataset
 [cgmquantify](https://github.com/DigitalBiomarkerDiscoveryPipeline/cgmquantify) is a Python package provided by the DBDP for
 analyzing glucose and glucose variability. The package is also [available in R](https://cran.r-project.org/web/packages/cgmquantify/index.html).
@@ -24,9 +27,6 @@ These datasets have previously been used to
 -  evaluate whether initiating CGM remotely can be performed safely and effectively (with the Dexcom G6 and Abbott FreeStyle Libre CGM systems)  
 
 Details on these studies and more can be found in this [table](https://public.jaeb.org/datasets/diabetes).
-
-## Citing this Dataset
-Each dataset provided on the database has an associated study. Please refer to the appropriate paper for citation guidelines.
 
 ## Additional Usage Information
 Must provide name, email, institution, and purpose to download each public dataset.
