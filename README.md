@@ -32,6 +32,7 @@ We welcome contributions to the DHDR! If your data is too large to upload here, 
 ### Continuous Glucose Monitoring (CGM)
 | Dataset | Description |
 | ------ | ------ |
+|[Smartwatch Prediabetes](https://github.com/DigitalBiomarkerDiscoveryPipeline/Digital_Health_Data_Repository/tree/main/Continuous%20Glucose%20Monitoring%20(CGM)/Dataset_GlycemiaWatch)|Data from 16 study participants wearing research-grade wearable devices. Includes glucose concentration, accelerometry, blood volume pulse, electrodermal activity, heart rate, interbeat interval, and skin temperature measurements over 8-10 days.
 |[JCHR Diabetes](https://github.com/DigitalBiomarkerDiscoveryPipeline/Digital_Health_Data_Repository/tree/main/Continuous%20Glucose%20Monitoring%20(CGM)/Dataset_Jaeb-T1DEx-Diabetes)|Diabetes-related datasets and their corresponding protocol from 2010 to 2020. *(Recent additions include ReCGM, CITY, WISDM, SENCE, and JDRF.)*
 |[REPLACE-BG](https://github.com/DigitalBiomarkerDiscoveryPipeline/Digital_Health_Data_Repository/tree/main/Continuous%20Glucose%20Monitoring%20(CGM)/Dataset_REPLACE-BG)|Data from a 26-week randomized clinical trial of participants who have had T1D for at least one year.
 
