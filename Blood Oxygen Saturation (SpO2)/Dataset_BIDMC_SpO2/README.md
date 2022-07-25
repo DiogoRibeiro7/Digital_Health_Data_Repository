@@ -19,9 +19,11 @@ Please also cite the DBDP if you are using any module from Digital Biomarker Dis
 Previous studies utilizing this dataset include the [Toward a Robust Estimation of Respiratory Rate From Pulse Oximeters](https://ieeexplore.ieee.org/document/7748483). Other studies may be ongoing.
 
 
-## Dataset
+## Dataset 
 
 The dataset and documentation is available at the following link: [Link to BIDMC Blood Oxygen Saturation Dataset](https://physionet.org/content/bidmc/1.0.0/)
+
+Download method: wget -r -N -c -np https://physionet.org/files/bidmc/1.0.0/
 
 ## Additional Usage Information
 The dataset contains:
