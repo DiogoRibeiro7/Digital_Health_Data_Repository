@@ -1,7 +1,7 @@
 # Glycemic Health Monitoring for Prediabetes via Noninvasive Smartwatches 
 
 ## Dataset 
-The datasets were generated from [this study by Bent et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8172541/) The files are temporarily available for download in [Box](https://duke.box.com/s/unfst943r0z4r7v4k12jcrulasq4x2fw).
+The datasets were generated from [this study by Bent et al.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8172541/) The files are available for download on [PhysioNet](https://physionet.org/content/big-ideas-glycemic-wearable/1.0.0/).
 
 ## Description of Dataset
 This data was collected in a study that aimed to evaluate the feasibility and effectiveness of wearables devices in detecting early physiological changes prior to prediabetes development. The researchers generated digital biomarkers for prediabetes and hyperglycemia risk to identify individuals that should undergo further clinical testing.
