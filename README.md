@@ -48,6 +48,11 @@ We welcome contributions to the DHDR! If your data is too large to upload here, 
 |[PPG-DaLiA](https://github.com/DigitalBiomarkerDiscoveryPipeline/Digital_Health_Data_Repository/tree/main/Photoplethysmogram%20(PPG)/Dataset_PPG-DaLiA)|This multimodal dataset features physiological and motion data, recorded from both a wrist- and a chest-worn device, of 15 subjects while performing a wide range of activities under close to real-life conditions.|
 |[WristPPGDuringExercise](https://github.com/DigitalBiomarkerDiscoveryPipeline/Digital_Health_Data_Repository/tree/main/Photoplethysmogram%20(PPG)/Dataset_WristPPGDuringExercise)|This database contains wrist PPGs recorded during walking, running and bike riding. Simultaneous motion estimates and A reference chest ECG are included as well.|
 
+### remote Photoplethysmogram (rPPG)
+| Dataset | Description |
+| ------ | ------ |
+|[UCLA-rPPG](http://visual.ee.ucla.edu/rppg_avatars.htm/)|A largest rPPG dataset of its kind (UCLA-rPPG) with a diverse presence of subject skin tones, in the hope that this could serve as a benchmark dataset for different skin tones in this area and ensure that advances of the technique can benefit all people for healthcare equity.|
+
 ### COVID19
 | Dataset | Description |
 | ------ | ------ |
